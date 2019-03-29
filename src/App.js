@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import NoizeLevelWidget from "./components/NoizeLevelWidget";
+import "./App.scss";
+import "normalize-scss";
+
+const mockData = 0;
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>HELLO</h1>
+        <NoizeLevelWidget noiseLevel={mockData} />
       </div>
     );
   }
