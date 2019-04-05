@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NoizeLevelWidget from "./components/NoizeLevelWidget";
 import "./App.scss";
-import "normalize-scss";
 
 const mockData = 0;
 
